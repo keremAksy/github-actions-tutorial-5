@@ -1,17 +1,8 @@
 name: Deploy website
 on:
-<<<<<<< HEAD
-  pull_request:
-    types: ['closed']
-  
-  workflow_dispatch:
-    
-
-=======
   push:
     branches:
       - main
->>>>>>> d877066ea7e85068c7f2b505fa1abe65edf442aa
 jobs:
   test:
     runs-on: ubuntu-latest
