@@ -41,7 +41,8 @@ jobs:
     steps:
       - name: Get Build Artifact
         uses: actions/download-artifact@v5
-        name: dist-files 
+        with: 
+          name: dist-files 
 
       - name: Print content
         run: ls
